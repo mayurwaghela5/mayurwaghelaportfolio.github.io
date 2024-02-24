@@ -1,0 +1,21 @@
+.about-content {
+    display: none;
+}
+
+.expand {
+    display: block !important;
+}
+
+.toggle-btn {
+    cursor: pointer;
+}
+
+.toggle-btn:after {
+    font-size: 15px;
+    content: "click here to view more";
+}
+
+.expanded .toggle-btn:after {
+    font-size: 15px;
+    content: " hide";
+}
