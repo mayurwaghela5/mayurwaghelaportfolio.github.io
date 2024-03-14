@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: whitesmoke;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -122,7 +122,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 	}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1765,7 +1765,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #000000;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2037,6 +2037,34 @@ input, select, textarea {
 
 /* Image */
 
+	.about-nav {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+	}
+
+	.about-nav li {
+		display: inline-block;
+		margin-left: 20px; /* Adjust as needed */
+	}
+
+	.about-nav li:first-child {
+		margin-left: 0;
+	}
+
+	.about-nav a {
+		color: #000000; /* Change color as needed */
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 18px; /* Adjust font size as needed */
+		transition: color 0.3s ease;
+	}
+
+	.about-nav a:hover {
+		color: #555; /* Change color on hover as needed */
+	}
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
@@ -2175,7 +2203,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px #000000;
 				padding: 0.5em 0;
 			}
 
@@ -2446,8 +2474,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 2px #484848;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2625,7 +2653,8 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #6e2323;
+			font-size: 1.5em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
